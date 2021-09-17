@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(220,220,220);
+    overflow: hidden;
+    height:100vh;
+}
+.canvas{
+    display: flex;
+    margin: 80px auto;
+    width: 65%;
+    height: 600px;
+    border-radius: 25px;
+    box-shadow: 1px 10px 5px 10px gray;
+    flex-direction: column;
+    background: #fff;
+}
+.container{
+    padding: 3%;
+    height: 85%;
+    overflow-y: auto;
+}
+.typemsg{
+    /* padding: 2%; */
+    padding-bottom: 0;
+    height: 15%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.Addmsg{
+    /* background: red; */
+    /* display: flex; */
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 100%;
+    height: 100%;
+    /* flex-direction: row; */
+    /* border: 5px solid black; */
+}
+#textinput{
+    border-radius: 20px;
+    border:3px solid #2d9fd9;
+    width: 80%;
+    height: 50px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#textinput:focus {
+    outline: none;
+    border: 4px solid #2d9fd9;
+}
+#submitbtn{
+    margin-left: 10px;
+    border-radius: 20px;
+    width: 15%;
+    height: 50px;
+    border: 3px solid #2d9fd9;
+    font-weight: bold;
+    color: gray;
+    /* font-size: 1.2rem; */
+
+}
+#submitbtn:hover{
+    border: 4px solid #2d9fd9;
+}
+.users{
+    padding-left: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#user{
+    text-align: right;
+    color: lightgreen;
+    padding-right: 1rem;
+}
+#agent{
+    color: #2d9fd9;
+}
+.msg{
+    position: relative;
+    border: 3px solid #2dcad9;
+    border-radius: 20px;
+    display: inline-block;
+    outline: none;
+}
+#pad{
+    padding:2px 13px;
+}
+#message{
+    font-size: 18px;
+}
+#time{
+    text-align: right;
+    font-size: 15px;
+    font-style: italic;
+}
+#right{
+    color: black;
+    float: right;
+    border: 3px solid gray;
+}
+@media (max-width: 450px){
+    .canvas{
+        margin: 45px 30px;
+        width: 85%;
+    }
+    .Addmsg{
+        padding-left: 10px;
+    }
+    #textinput{
+        width: 72%;
+    }
+    #submitbtn{
+        margin-left: 5px;
+        width: 20%;
+    }
+}
