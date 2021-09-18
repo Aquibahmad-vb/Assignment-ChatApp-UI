@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Assignment-ChatApp-UI/static/css/main.b51c156f.chunk.css",
+    "main.css": "/Assignment-ChatApp-UI/static/css/main.ec587d94.chunk.css",
     "main.js": "/Assignment-ChatApp-UI/static/js/main.1e26d361.chunk.js",
     "main.js.map": "/Assignment-ChatApp-UI/static/js/main.1e26d361.chunk.js.map",
     "runtime-main.js": "/Assignment-ChatApp-UI/static/js/runtime-main.f84b4b7a.js",
@@ -10,13 +10,13 @@
     "static/js/3.7cdb3ccb.chunk.js": "/Assignment-ChatApp-UI/static/js/3.7cdb3ccb.chunk.js",
     "static/js/3.7cdb3ccb.chunk.js.map": "/Assignment-ChatApp-UI/static/js/3.7cdb3ccb.chunk.js.map",
     "index.html": "/Assignment-ChatApp-UI/index.html",
-    "static/css/main.b51c156f.chunk.css.map": "/Assignment-ChatApp-UI/static/css/main.b51c156f.chunk.css.map",
+    "static/css/main.ec587d94.chunk.css.map": "/Assignment-ChatApp-UI/static/css/main.ec587d94.chunk.css.map",
     "static/js/2.a7c05063.chunk.js.LICENSE.txt": "/Assignment-ChatApp-UI/static/js/2.a7c05063.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f84b4b7a.js",
     "static/js/2.a7c05063.chunk.js",
-    "static/css/main.b51c156f.chunk.css",
+    "static/css/main.ec587d94.chunk.css",
     "static/js/main.1e26d361.chunk.js"
   ]
 }
